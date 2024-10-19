@@ -1,0 +1,23 @@
+{
+  "name": "safeguard-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.3",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.2",
+    "python-shell": "^5.0.0",
+    "react-chat-engine": "^1.11.28",
+    "twilio": "^5.3.4"
+  }
+}
