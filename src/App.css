@@ -1,0 +1,69 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 30px;
+}
+
+.center-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.center-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.center-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.center-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.center-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.center-card strong {
+  color: #4a90e2;
+}
+
+@media (max-width: 768px) {
+  .center-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .center-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
